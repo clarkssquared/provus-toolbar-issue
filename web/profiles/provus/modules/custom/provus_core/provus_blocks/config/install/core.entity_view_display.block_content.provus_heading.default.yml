@@ -16,7 +16,7 @@ bundle: provus_heading
 mode: default
 content:
   field_provus_alignment:
-    type: list_default
+    type: list_key
     label: hidden
     settings: {  }
     third_party_settings: {  }

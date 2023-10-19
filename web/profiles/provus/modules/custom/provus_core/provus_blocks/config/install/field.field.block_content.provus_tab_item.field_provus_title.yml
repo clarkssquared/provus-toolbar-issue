@@ -8,8 +8,8 @@ id: block_content.provus_tab_item.field_provus_title
 field_name: field_provus_title
 entity_type: block_content
 bundle: provus_tab_item
-label: Title
-description: ''
+label: 'Tab Title Link'
+description: 'The title of the tab navigation link.'
 required: true
 translatable: true
 default_value: {  }

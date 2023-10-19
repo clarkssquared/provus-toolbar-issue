@@ -45,11 +45,15 @@
       }
     }
     .short-banner-image {
-      .field--type-image {
+      div {
+        height: 100%;
         margin: 0;
-        float: right;
+      }
+      .field--type-image {
         img {
           margin: 0;
+          object-fit: cover;
+          height: 100%;
         }
       }
     }

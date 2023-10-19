@@ -73,3 +73,12 @@ nav.tabs ul {
     padding-left: rem-calc(30);
   }
 }
+
+.block-provus-tabs {
+  .horizontal-tabs {
+    display: block;
+    .nav-item .nav-link.active:hover, .nav-item .nav-link.active:focus {
+      color: $white;
+    }
+  }
+}
