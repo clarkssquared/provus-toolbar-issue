@@ -49,6 +49,7 @@ install:
   - gin_lb
   - gin_login
   - gin_toolbar
+  - google_tag
   - help
   - history
   - image

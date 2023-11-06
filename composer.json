@@ -83,6 +83,7 @@
         "drupal/gin_lb": "^1.0@RC",
         "drupal/gin_login": "2.0.2",
         "drupal/gin_toolbar": "1.0.0-rc3",
+        "drupal/google_tag": "2.0.x-dev@dev",
         "drupal/inline_entity_form": "1.0.0-rc15",
         "drupal/layout_builder_browser": "1.5",
         "drupal/layout_builder_modal": "1.2",
