@@ -3,12 +3,14 @@ status: true
 dependencies:
   config:
     - field.field.node.provus_news.body
+    - field.field.node.provus_news.field_metatag
     - field.field.node.provus_news.field_provus_media_files
     - field.field.node.provus_news.field_provus_media_image
     - field.field.node.provus_news.field_provus_publish_date
     - node.type.provus_news
   module:
     - datetime
+    - metatag
     - text
     - user
 id: node.provus_news.default
@@ -27,6 +29,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_provus_media_files:
     type: entity_reference_entity_view

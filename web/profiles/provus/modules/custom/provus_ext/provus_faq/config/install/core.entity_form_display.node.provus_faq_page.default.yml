@@ -3,10 +3,12 @@ status: true
 dependencies:
   config:
     - field.field.node.provus_faq_page.body
+    - field.field.node.provus_faq_page.field_metatag
     - field.field.node.provus_faq_page.field_provus_faq_groups
     - node.type.provus_faq_page
   module:
     - inline_entity_form
+    - metatag
     - path
     - text
 id: node.provus_faq_page.default
@@ -29,6 +31,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_metatag:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_provus_faq_groups:
     type: inline_entity_form_complex
@@ -59,6 +69,11 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox

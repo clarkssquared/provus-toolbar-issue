@@ -4,6 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.provus_person.body
+    - field.field.node.provus_person.field_metatag
     - field.field.node.provus_person.field_provus_email
     - field.field.node.provus_person.field_provus_fname
     - field.field.node.provus_person.field_provus_lname
@@ -35,6 +36,7 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_metatag: true
   field_provus_email: true
   field_provus_fname: true
   field_provus_lname: true

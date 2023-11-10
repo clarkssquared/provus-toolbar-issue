@@ -56,6 +56,7 @@ install:
   - linkit
   - menu_block
   - menu_ui
+  - metatag
   - options
   - path
   - provus_core
@@ -65,6 +66,7 @@ install:
   - serialization
   - shortcut
   - sitemap
+  - simple_sitemap
   - taxonomy
   - toastify
   - toolbar

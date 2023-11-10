@@ -4,6 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.provus_blog.body
+    - field.field.node.provus_blog.field_metatag
     - field.field.node.provus_blog.field_provus_media_files
     - field.field.node.provus_blog.field_provus_media_image
     - field.field.node.provus_blog.field_provus_publish_date
@@ -32,6 +33,7 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_metatag: true
   field_provus_media_files: true
   field_provus_media_image: true
   field_provus_publish_date: true

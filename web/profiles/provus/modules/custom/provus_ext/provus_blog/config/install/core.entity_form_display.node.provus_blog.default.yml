@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.provus_blog.body
+    - field.field.node.provus_blog.field_metatag
     - field.field.node.provus_blog.field_provus_media_files
     - field.field.node.provus_blog.field_provus_media_image
     - field.field.node.provus_blog.field_provus_publish_date
@@ -11,6 +12,7 @@ dependencies:
   module:
     - datetime
     - media_library
+    - metatag
     - path
     - text
 id: node.provus_blog.default
@@ -33,6 +35,14 @@ content:
     weight: 7
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_metatag:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_provus_media_files:
     type: media_library_widget
@@ -76,6 +86,11 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox

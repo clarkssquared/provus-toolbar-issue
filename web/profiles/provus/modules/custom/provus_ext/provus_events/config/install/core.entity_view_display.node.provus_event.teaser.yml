@@ -1,17 +1,15 @@
-uuid: fa2382fe-9bb9-4596-8f64-9fba27b37ddc
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.provus_event.body
+    - field.field.node.provus_event.field_metatag
     - field.field.node.provus_event.field_provus_smartdate
     - node.type.provus_event
   module:
     - text
     - user
-_core:
-  default_config_hash: An3y0l9u7IndXaW0OZ2AJmC4ojBV-EQv9zBDNnwz5dw
 id: node.provus_event.teaser
 targetEntityType: node
 bundle: provus_event
@@ -32,4 +30,5 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_metatag: true
   field_provus_smartdate: true

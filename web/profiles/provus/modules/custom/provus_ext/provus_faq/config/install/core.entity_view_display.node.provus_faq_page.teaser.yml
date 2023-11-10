@@ -4,6 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.provus_faq_page.body
+    - field.field.node.provus_faq_page.field_metatag
     - field.field.node.provus_faq_page.field_provus_faq_groups
     - node.type.provus_faq_page
   module:
@@ -29,4 +30,5 @@ content:
     region: content
 hidden:
   addtoany: true
+  field_metatag: true
   field_provus_faq_groups: true

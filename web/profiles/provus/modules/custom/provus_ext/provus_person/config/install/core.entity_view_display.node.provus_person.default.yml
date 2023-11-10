@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.provus_person.body
+    - field.field.node.provus_person.field_metatag
     - field.field.node.provus_person.field_provus_email
     - field.field.node.provus_person.field_provus_fname
     - field.field.node.provus_person.field_provus_lname
@@ -12,11 +13,10 @@ dependencies:
     - field.field.node.provus_person.field_provus_titles
     - node.type.provus_person
   module:
+    - metatag
     - telephone
     - text
     - user
-_core:
-  default_config_hash: dxjXcAo25rKV7H7F-OVrhnXvxRYbxP5JYsbxejSVS5Y
 id: node.provus_person.default
 targetEntityType: node
 bundle: provus_person
@@ -28,6 +28,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_provus_email:
     type: basic_string

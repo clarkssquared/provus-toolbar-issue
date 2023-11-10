@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.provus_blog.body
+    - field.field.node.provus_blog.field_metatag
     - field.field.node.provus_blog.field_provus_media_files
     - field.field.node.provus_blog.field_provus_media_image
     - field.field.node.provus_blog.field_provus_publish_date
@@ -10,6 +11,7 @@ dependencies:
     - node.type.provus_blog
   module:
     - datetime
+    - metatag
     - text
     - user
 id: node.provus_blog.default
@@ -28,6 +30,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_provus_media_files:
     type: entity_reference_entity_view

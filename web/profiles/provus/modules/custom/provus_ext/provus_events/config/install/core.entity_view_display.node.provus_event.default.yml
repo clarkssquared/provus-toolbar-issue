@@ -3,9 +3,11 @@ status: true
 dependencies:
   config:
     - field.field.node.provus_event.body
+    - field.field.node.provus_event.field_metatag
     - field.field.node.provus_event.field_provus_smartdate
     - node.type.provus_event
   module:
+    - metatag
     - smart_date_recur
     - text
     - user
@@ -20,6 +22,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_provus_smartdate:
     type: smartdate_recurring

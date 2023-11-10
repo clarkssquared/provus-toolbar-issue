@@ -3,9 +3,11 @@ status: true
 dependencies:
   config:
     - field.field.node.provus_event.body
+    - field.field.node.provus_event.field_metatag
     - field.field.node.provus_event.field_provus_smartdate
     - node.type.provus_event
   module:
+    - metatag
     - path
     - smart_date
     - text
@@ -29,6 +31,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_metatag:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_provus_smartdate:
     type: smartdate_default
@@ -59,6 +69,11 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
