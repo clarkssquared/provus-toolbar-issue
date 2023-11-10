@@ -172,7 +172,7 @@ a {
 
 // Heading block.
 .block-provus-heading {
-  h2,h3,h4,h5,h6 {
+  h1,h2,h3,h4,h5,h6 {
     position: relative;
     div.field {
       position: relative;
@@ -181,7 +181,7 @@ a {
     }
   }
   .line-on {
-    h2,h3,h4,h5,h6 {
+    h1,h2,h3,h4,h5,h6 {
       background: $white;
       &:before {
         width: 100%;
@@ -199,7 +199,7 @@ a {
   }
   .header-align-left {
     text-align: left;
-    h2,h3,h4,h5,h6 {
+    h1,h2,h3,h4,h5,h6 {
       &:before {
         left: 0;
       }
@@ -214,7 +214,7 @@ a {
       padding-left: rem-calc(60);
     }
     &.line-on {
-      h2,h3,h4,h5,h6 {
+      h1,h2,h3,h4,h5,h6 {
         &:before {
           right: 0;
         }
@@ -228,7 +228,7 @@ a {
     .subheading {
       text-align: center;
     }
-    h2,h3,h4,h5,h6 {
+    h1,h2,h3,h4,h5,h6 {
       text-align: center;
       &:before {
         left: 0;
