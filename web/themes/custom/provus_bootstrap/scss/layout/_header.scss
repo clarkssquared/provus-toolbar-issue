@@ -40,8 +40,8 @@
 #searchCollapse {
   right: rem-calc(35);
   width: rem-calc(460);
-  top: rem-calc(-14);
-  background: $white;
+  top: rem-calc(-8);
+  background: transparent;
   @include media-breakpoint-down(lg) {
     width: rem-calc(300);
   }

@@ -31,6 +31,7 @@ install:
   - admin_toolbar
   - admin_toolbar_tools
   - better_normalizers
+  - better_exposed_filters
   - block_content
   - bootstrap_layout_builder
   - breakpoint
@@ -63,6 +64,8 @@ install:
   - provus_blocks
   - responsive_image
   - search
+  - search_api
+  - search_api_db
   - serialization
   - shortcut
   - sitemap
