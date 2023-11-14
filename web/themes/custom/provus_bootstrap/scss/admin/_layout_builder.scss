@@ -1350,6 +1350,12 @@ a > .layout-builder__link-wrapped {
   color: black;
 }*/
 
+.layout-builder-configure-block {
+  .glb-media-library-item__remove.icon-link {
+    visibility: visible !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .layout-builder-active .ui-widget.ui-dialog.ui-dialog-off-canvas .ui-dialog-titlebar .ui-dialog-titlebar-close {
     right: 30px;
