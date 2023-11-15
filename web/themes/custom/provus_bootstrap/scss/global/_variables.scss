@@ -55,10 +55,10 @@ $system-medium: #1A5AAC;
 $system-contrast: #35290F;
 
 // Bootstrap fixes.
-$primary-light: $primary;
+$primary-light: $primary-contrast;
 $primary-shade: $primary;
+$primary-dark: $primary-accent;
 $secondary-shade: $secondary;
-$primary-medium: $primary-hover;
 $accent-shade: $secondary;
 $font-size-base: 1rem;
 
@@ -74,10 +74,6 @@ $hr-color: $text-primary;
 // Border Color
 $border-color: $card-border-color;
 $color-border-color: $border-color;
-
-// Main Colors (Light & Dark)
-$primary-dark: $primary-accent;
-$secondary-dark: $secondary-contrast;
 
 // Grayscale Colors
 $white: white;
@@ -115,3 +111,6 @@ $h6-font-size: $font-size-base;
 // Comments
 $comment-spacer-x: 1.25em;
 $comment-spacer-y: 1.25em;
+
+// Bootstrap barrio variables.
+$primary-dark: $primary-contrast;

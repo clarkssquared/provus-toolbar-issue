@@ -6,10 +6,10 @@
       border-right: 1px solid $gray-lightest;
     }
     &:nth-child(odd) .stat-group-item {
-      color: $primary-shade;
+      color: $primary;
     }
     &:nth-child(even) .stat-group-item {
-      color: $primary-medium;
+      color: $primary-accent;
     }
     .stat-group-item {
       .stat-group-icon {

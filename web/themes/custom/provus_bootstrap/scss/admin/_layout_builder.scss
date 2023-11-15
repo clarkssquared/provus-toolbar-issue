@@ -517,7 +517,7 @@ a > .layout-builder__link-wrapped {
     text-indent: -9999px;
     width: 40px;
     height: 40px;
-    color: $primary-dark !important;
+    color: $primary-accent !important;
     text-decoration: none;
 
     &:last-child {
@@ -550,7 +550,7 @@ a > .layout-builder__link-wrapped {
       left: 10px;
       width: 20px;
       height: 20px;
-      color: $primary-dark !important;
+      color: $primary-accent !important;
     }
 
     &.layout-builder__link--import-from-library {

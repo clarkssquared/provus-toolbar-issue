@@ -53,11 +53,11 @@
   &-outlined {
     background: $white;
     color: $text-primary;
-    border-color: $secondary-shade;
+    border-color: $secondary;
     border: 1px solid var(--border-light, #E7E8E9);
     &:hover,
     &:focus {
-      background: $secondary-dark;
+      background: $secondary-contrast;
       border: 1px solid var(--border-dark, #D9DBDD);
       color: $text-primary;
     }
@@ -74,23 +74,23 @@
 
 .btn-outline {
   &-primary {
-    color: $primary-shade;
-    border-color: $primary-shade;
+    color: $primary;
+    border-color: $primary;
     &:hover,
     &:focus {
-      background: $primary-shade;
+      background: $primary;
       color: $white;
-      border-color: $primary-shade;
+      border-color: $primary;
     }
   }
   &-secondary {
-    color: $secondary-shade;
-    border-color: $secondary-shade;
+    color: $secondary;
+    border-color: $secondary;
     &:hover,
     &:focus {
-      background: $secondary-shade;
+      background: $secondary;
       color: $white;
-      border-color: $secondary-shade;
+      border-color: $secondary;
     }
   }
 }
