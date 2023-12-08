@@ -36,6 +36,15 @@
       $('#searchCollapse').on('hidden.bs.collapse', function () {
         $('#searchCollapse .form-search').blur();
       });
+
+      // Menu hovered class.
+      $("nav.menu--main ul.navbar-nav li.nav-item.dropdown a").focus(function(){
+        $(this).parent().addClass('hovered');
+      });
+      
+      $("nav.menu--main ul.navbar-nav li a.nav-link:not('.dropdown-toggle-main')").focus(function(){
+        $('nav.menu--main ul.navbar-nav li.hovered').removeClass('hovered');
+      });
     }
   }
 
