@@ -4,6 +4,7 @@ dependencies:
   config:
     - field.storage.node.body
     - search_api.server.search_server
+    - core.entity_view_mode.node.full
   module:
     - node
     - search_api
@@ -35,6 +36,22 @@ field_settings:
     indexed_locked: true
     type_locked: true
     hidden: true
+  rendered_landing_page:
+    label: 'Rendered HTML output - Landing page'
+    property_path: rendered_item
+    type: text
+    configuration:
+      roles:
+        - anonymous
+        - authenticated
+      view_mode:
+        'entity:node':
+          provus_blog: ''
+          provus_event: ''
+          provus_faq_page: ''
+          provus_landing_page: full
+          provus_news: ''
+          provus_person: ''
   status:
     label: status
     datasource_id: 'entity:node'
@@ -107,6 +124,7 @@ processor_settings:
     all_fields: true
     fields:
       - body
+      - rendered_landing_page
       - title
       - type
     title: true
@@ -141,6 +159,7 @@ processor_settings:
     all_fields: true
     fields:
       - body
+      - rendered_landing_page
       - title
       - type
   language_with_fallback: {  }
@@ -152,6 +171,7 @@ processor_settings:
     all_fields: true
     fields:
       - body
+      - rendered_landing_page
       - title
       - type
   type_boost:

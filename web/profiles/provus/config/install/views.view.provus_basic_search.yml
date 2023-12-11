@@ -368,6 +368,7 @@ display:
           min_length: null
           fields:
             - body
+            - rendered_landing_page
             - title
         type:
           id: type
