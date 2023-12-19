@@ -281,7 +281,6 @@ function provus_blocks_form_alter(&$form, FormStateInterface $form_state, $form_
     if (strpos($block_type, 'provus_') === 0) {
       $form['settings']['label']['#title'] = $new_label;
       $form['settings']['label']['#description'] = $new_description;
-      $form['settings']['admin_label']['#access'] = FALSE;
       $form['settings']['label_display']['#default_value'] = FALSE;
       $form['settings']['label_display']['#access'] = FALSE;
       $form['settings']['view_mode']['#access'] = FALSE;
