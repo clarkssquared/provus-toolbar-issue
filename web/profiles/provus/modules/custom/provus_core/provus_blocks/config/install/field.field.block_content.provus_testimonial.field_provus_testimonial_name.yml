@@ -8,7 +8,7 @@ id: block_content.provus_testimonial.field_provus_testimonial_name
 field_name: field_provus_testimonial_name
 entity_type: block_content
 bundle: provus_testimonial
-label: 'Testimonial name'
+label: 'Full name / Header title'
 description: ''
 required: true
 translatable: false

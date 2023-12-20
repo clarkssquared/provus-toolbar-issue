@@ -8,7 +8,7 @@ id: block_content.provus_testimonial.field_provus_testimonial_body
 field_name: field_provus_testimonial_body
 entity_type: block_content
 bundle: provus_testimonial
-label: 'Testimonial body'
+label: 'Testimonial content'
 description: ''
 required: true
 translatable: false
