@@ -92,6 +92,7 @@
         "drupal/linkit": "6.1.0",
         "drupal/menu_block": "dev-1.x",
         "drupal/metatag": "^2.0",
+        "drupal/metatag_ai": "^1.0",
         "drupal/pathauto": "1.11",
         "drupal/search_api": "^1.30",
         "drupal/section_library": "1.1.1",
