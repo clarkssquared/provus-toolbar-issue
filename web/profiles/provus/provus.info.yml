@@ -38,6 +38,7 @@ install:
   - ckeditor5
   - config
   - comment
+  - content_moderation
   - contextual
   - contact
   - crop
