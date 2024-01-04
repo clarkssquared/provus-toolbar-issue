@@ -104,6 +104,7 @@
         "drupal/toastify": "1.0.0-beta6",
         "drupal/twig_tweak": "3.2.1",
         "drupal/views_bootstrap": "4.4",
+        "drupal/webform": "^6.2",
         "drupaloverride/better_normalizers": "dev-master",
         "drush/drush": "12.1.0",
         "fontawesome/fontawesome": "6.1.0",

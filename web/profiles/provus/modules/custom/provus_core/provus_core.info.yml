@@ -21,3 +21,5 @@ dependencies:
   - smart_trim
   - views_bootstrap
   - metatag_ai
+  - webform
+  - webform_ui
