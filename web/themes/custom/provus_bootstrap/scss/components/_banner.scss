@@ -85,3 +85,24 @@
     padding: rem-calc(75 0);
   }
 }
+
+/* For mobilde devices. */
+@media only screen and (max-width: 765px) {
+  .large-banner {
+    h1 {
+      font-size: rem-calc(28);
+      line-height: rem-calc(30);
+    }
+  }
+  .large-banner-inner .large-banner-content p{
+      font-size: rem-calc(16);
+      line-height: rem-calc(32);
+  }
+}
+
+/* For iPad devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+        .large-banner-content {
+          width: 100%;
+        }
+  }
