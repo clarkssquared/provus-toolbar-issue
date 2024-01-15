@@ -1,5 +1,5 @@
 status: 1
-pattern: '[block_content:field_provus_list_text] (List Item) - [random:number]'
+pattern: '[block_content:field_provus_title] (List Item) - [random:number]'
 escape: false
 preserve_titles: false
 dependencies:

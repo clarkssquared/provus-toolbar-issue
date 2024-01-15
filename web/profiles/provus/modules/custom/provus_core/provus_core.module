@@ -61,6 +61,10 @@ function provus_core_theme() {
       'template' => 'node--provus-card-tall',
       'base hook' => 'node'
     ],
+    'node__provus_card_icon_left' => [
+      'template' => 'node--provus-card-icon-left',
+      'base hook' => 'node'
+    ],
   ];
 }
 

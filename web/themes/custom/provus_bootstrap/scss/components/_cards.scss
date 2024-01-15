@@ -248,3 +248,45 @@
     }
   }
 }
+
+// Card icon left.
+.card-wrapper.provus-card-icon-left {
+  .list {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: rem-calc(18);
+    &-icon {
+      min-width: rem-calc(34);
+      width: rem-calc(34);
+      height: rem-calc(34);
+      font-size: rem-calc(24);
+      overflow: hidden;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: flex-start;
+      span {
+        color: $primary-shade;
+      }
+    }
+    &-text {
+      font-weight: 600;
+      font-size: rem-calc(18);
+      line-height: rem-calc(25);
+      letter-spacing: rem-calc(1);
+      color: $text-primary;
+      padding-left: rem-calc(18);
+      padding-top: rem-calc(4);
+      &-text {
+        font-size: rem-calc(15);
+        line-height: rem-calc(19);
+        font-weight: 400;
+        color: $text-secondary;
+      }
+      &-title {
+        margin-top: 0;
+        margin-bottom: rem-calc(6);
+      }
+    }
+  }
+}

@@ -1,11 +1,25 @@
 .list-wrapper {
   .list-style {
-    &.icon-left {
+    &.icon-left, &.icon-right {
       .list {
-        align-items: center;
+        align-items: flex-start;
         margin-bottom: rem-calc(18);
+        &-icon {
+        }
         &-text {
           padding-left: rem-calc(18);
+          padding-top: rem-calc(4);
+        }
+      }
+    }
+    &.icon-right {
+      .list {
+        flex-direction: row-reverse;
+        text-align: right;
+        &-icon {
+        }
+        &-text {
+          padding-right: rem-calc(18);
         }
       }
     }
@@ -13,6 +27,9 @@
       .list {
         flex-direction: column;
         align-items: center;
+        &-text {
+          width: 100%;
+        }
       }
     }
     &.column-row {
@@ -31,10 +48,10 @@
       display: flex;
       margin-bottom: rem-calc(18);
       &-icon {
-        width: rem-calc(54);
-        height: rem-calc(54);
-        background: $white;
-        border-radius: 50%;
+        min-width: rem-calc(34);
+        width: rem-calc(34);
+        height: rem-calc(34);
+        font-size: rem-calc(24);
         overflow: hidden;
         display: flex;
         align-content: center;
@@ -47,9 +64,19 @@
       &-text {
         font-weight: 600;
         font-size: rem-calc(18);
-        line-height: rem-calc(32);
+        line-height: rem-calc(25);
         letter-spacing: rem-calc(1);
+        color: $text-primary;
+        &-text {
+          font-size: rem-calc(15);
+          line-height: rem-calc(19);
+          font-weight: 400;
+          color: $text-secondary;
+        }
       }
+    }
+    a {
+      text-decoration: none;
     }
   }
 }

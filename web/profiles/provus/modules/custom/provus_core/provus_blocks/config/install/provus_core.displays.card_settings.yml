@@ -22,3 +22,6 @@ displays:
   provus_card_basic_plus:
     name: 'Basic Plus'
     cardstyle: {  }
+  provus_card_icon_left:
+    name: 'Icon Left'
+    cardstyle: {  }

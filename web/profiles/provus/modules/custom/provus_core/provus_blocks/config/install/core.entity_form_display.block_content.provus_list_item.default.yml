@@ -3,17 +3,29 @@ status: true
 dependencies:
   config:
     - block_content.type.provus_list_item
+    - field.field.block_content.provus_list_item.field_provus_body
     - field.field.block_content.provus_list_item.field_provus_icon
     - field.field.block_content.provus_list_item.field_provus_link
-    - field.field.block_content.provus_list_item.field_provus_list_text
+    - field.field.block_content.provus_list_item.field_provus_title
   module:
     - fontawesome_iconpicker_widget
     - link
+    - text
 id: block_content.provus_list_item.default
 targetEntityType: block_content
 bundle: provus_list_item
 mode: default
 content:
+  field_provus_body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
   field_provus_icon:
     type: fontawesome_iconpicker_widget
     weight: 1
@@ -28,9 +40,9 @@ content:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-  field_provus_list_text:
+  field_provus_title:
     type: string_textfield
-    weight: 2
+    weight: 1
     region: content
     settings:
       size: 60
