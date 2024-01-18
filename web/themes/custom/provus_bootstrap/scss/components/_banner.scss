@@ -64,10 +64,19 @@
 .large-banner {
   @include breakout;
 
-  padding: rem-calc(150 0);
+  padding: rem-calc(22 0);
   background-size: cover !important;
+  height: rem-calc(584);
   &-inner {
     .large-banner-content {
+      .large-banner-title {
+        width: rem-calc(660);
+        height: rem-calc(264);
+      }
+      .large-banner-body {
+        width: rem-calc(926);
+        height: rem-calc(84);
+      }
       h1, p {
         color: $white;
         text-shadow: 0 0 rem-calc(8) $black, 0 0 rem-calc(20) $black;
@@ -76,8 +85,9 @@
         margin-bottom: rem-calc(30);
       }
       p {
-        font-size: rem-calc(20);
+        font-size: rem-calc(18);
         line-height: rem-calc(32);
+        font-weight: 500;
       }
     }
   }
