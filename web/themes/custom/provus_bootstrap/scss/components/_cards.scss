@@ -33,6 +33,9 @@
   .card-header {
     padding: $card-spacing;
   }
+  .card-title {
+    width: rem-calc(245);
+  }
 }
 
 .card-header {
@@ -102,6 +105,7 @@
 
     h2, h3, h4, h5, h6 {
       color: $white;
+      font-weight: 700;
     }
   }
   a:hover {
