@@ -240,11 +240,27 @@ a {
     }
   }
   .subheading {
-    font-weight: 600;
-    font-size: rem-calc(11);
-    line-height: rem-calc(12);
-    text-transform: uppercase;
-    letter-spacing: 0.4em;
+    @include text-style-eyebrow-eyebrow-1();
     color: $secondary-shade;
   }
+}
+
+.block-provus-heading h1 {
+  @include text-style-headline-h-1();
+}
+
+.block-provus-heading h2 {
+  @include text-style-headline-h-2();
+}
+
+.block-provus-heading h3 {
+  @include text-style-headline-h-3();
+}
+
+.block-provus-heading h4 {
+  @include text-style-headline-h-4();
+}
+
+.block-provus-heading h5 {
+  @include text-style-headline-h-5();
 }
