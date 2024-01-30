@@ -14,6 +14,10 @@
       padding: rem-calc(62 39 37);
     }
 
+     .btn-default {
+      background-color: $primary;
+    }
+
     &.Primary {
       background-color: $primary-shade;
 
@@ -83,6 +87,7 @@
     .cta-links {
       .field__item {
         margin: 0;
+        margin-bottom: rem-calc(10);
       }
       a {
         display: block;

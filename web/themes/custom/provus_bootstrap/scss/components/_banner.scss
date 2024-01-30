@@ -60,6 +60,25 @@
   }
 }
 
+/* For mobile devices. */
+@media only screen and (max-width: 765px) {
+  .short-banner-title {
+      font-size: rem-calc(28);
+      line-height: rem-calc(30);
+  }
+  .short-banner-sub-title {
+      font-size: rem-calc(20);
+  }
+}
+
+/* For iPad devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+        .short-banner-title {
+          font-size: rem-calc(58);
+        }
+  }
+
+
 /* Banner */
 .large-banner {
   @include breakout;
