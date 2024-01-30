@@ -1,5 +1,7 @@
 <?php
 
+use \Drupal\Core\Entity\RevisionLogInterface;
+
 /**
  * @file
  * Contains provus.profile.
@@ -107,6 +109,7 @@ function provus_install_demo_content(array &$install_state) {
       ->getEditable('system.site')
       ->set('page.front', $path)
       ->save(TRUE);
+
     // Get nid of homepage and exclude node title.
     list($nothing, $nothing, $nid) = explode('/', $path);
     $nids = [$nid];
@@ -114,6 +117,14 @@ function provus_install_demo_content(array &$install_state) {
       ->getEditable('exclude_node_title.settings')
       ->set('nid_list', $nids)
       ->save(TRUE);
+
+    // Set the homepage landing page to published.
+    $node = \Drupal::entityTypeManager()->getStorage('node')->load($nid);
+    $node->set('moderation_state', 'published');
+    if ($node instanceof RevisionLogInterface) {
+      $node->setRevisionLogMessage('Changed moderation state to Published.');
+    }
+    $node->save();
   }
 
   return [];
