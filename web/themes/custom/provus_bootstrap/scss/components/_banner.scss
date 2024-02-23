@@ -80,13 +80,13 @@
 
 
 /* Banner */
-.large-banner {
+.large-banner-background {
   @include breakout;
 
   padding: rem-calc(102 0);
   background-size: cover !important;
   height: rem-calc(584);
-  &-inner {
+  .large-banner-inner {
     .large-banner-content {
       .large-banner-title {
         @include text-style-display-headline-display;
@@ -114,12 +114,13 @@
   }
   .smaller-large-banner & {
     padding: rem-calc(75 0);
+    height: auto;
   }
 }
 
 // For mobile devices.
 @media (min-width: 300px) and (max-width: 900px) {
-  .large-banner {
+  .large-banner-background {
     h1 {
       font-size: rem-calc(28);
       line-height: rem-calc(30);
@@ -143,7 +144,7 @@
 
 // For iPad devices.
 @media (min-width: 910px) and (max-width: 1400px) {
-  .large-banner {
+  .large-banner-background {
     .large-banner-title {
       width: rem-calc(750) !important;
       font-size: rem-calc(28) !important;

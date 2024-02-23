@@ -31,22 +31,23 @@
 #}
 {%
   set classes = [
-    'block',
-    'block-' ~ configuration.provider|clean_class,
-    'block-' ~ plugin_id|clean_class,
-    'large-banner',
-  ]
+  'block',
+  'block-' ~ configuration.provider|clean_class,
+  'block-' ~ plugin_id|clean_class,
+  'large-banner',
+]
 %}
-{% if content.field_provus_large_banner_small[0]['#markup'] == 'True' %}
-  <div class="smaller-large-banner">
-{% endif %}
-  <div{{ attributes.addClass(classes) }} style="background: url('{{ file_url(content.field_provus_media_image[0]['#media'].field_media_image.entity.uri.value | image_style('provus_large_banner')) }}') no-repeat center right;">
-    {{ title_prefix }}
-    {% if label %}
-      <h2{{ title_attributes }}>{{ label }}</h2>
+<div{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% block content %}
+    {% if content.field_provus_large_banner_small[0]['#markup'] == 'True' %}
+      <div class="smaller-large-banner">
     {% endif %}
-    {{ title_suffix }}
-    {% block content %}
+    <div class="large-banner-background" style="background: url('{{ file_url(content.field_provus_media_image[0]['#media'].field_media_image.entity.uri.value | image_style('provus_large_banner')) }}') no-repeat center right;">
       <div{{ content_attributes.addClass('large-banner-inner container') }}>
         <div class="row">
           <div class="col-md-6 large-banner-content">
@@ -59,8 +60,9 @@
           </div>
         </div>
       </div>
-    {% endblock %}
-  </div>
-{% if content.field_provus_large_banner_small|render %}
-  </div>
-{% endif %}
+    </div>
+    {% if content.field_provus_large_banner_small[0]['#markup'] == 'True' %}
+      </div>
+    {% endif %}
+  {% endblock %}
+</div>
