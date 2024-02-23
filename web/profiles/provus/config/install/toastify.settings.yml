@@ -4,7 +4,7 @@ status:
   color2: '#14746f'
   colorProgressBar: '#0d514d'
   direction: 'to right'
-  gravity: top
+  gravity: bottom
   positionLeft: false
   close: true
 warning:
@@ -13,7 +13,7 @@ warning:
   color2: '#ff6d00'
   colorProgressBar: '#b24c00'
   direction: 'to right'
-  gravity: top
+  gravity: bottom
   positionLeft: false
   close: true
 error:
@@ -22,6 +22,6 @@ error:
   color2: '#a71e34'
   colorProgressBar: '#741424'
   direction: 'to right'
-  gravity: top
+  gravity: bottom
   positionLeft: false
   close: true
