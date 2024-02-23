@@ -20,7 +20,28 @@
     margin: 0;
   }
 }
+
 [class^="bg-"] {
+  padding: rem-calc(80 0);
+  @include media-breakpoint-down(md) {
+    padding: rem-calc(40 0);
+  }
+  .layout {
+    margin: 0;
+  }
+}
+
+[class^="_none"]:first-child {
+  padding: 0;
+  @include media-breakpoint-down(md) {
+    padding: rem-calc(40 0);
+  }
+  .layout {
+    margin: 0;
+  }
+}
+
+[class^="_none"] {
   padding: rem-calc(80 0);
   @include media-breakpoint-down(md) {
     padding: rem-calc(40 0);
