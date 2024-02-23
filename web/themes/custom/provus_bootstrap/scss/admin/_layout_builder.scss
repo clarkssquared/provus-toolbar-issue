@@ -797,7 +797,10 @@ a > .layout-builder__link-wrapped {
 }
 
 .layout .block:not(:first-child) {
-  margin: 0;
+  &:first-child {
+      margin: 0;
+  }
+    margin-bottom: 40px;
 }
 
 // Layout Builder form.
