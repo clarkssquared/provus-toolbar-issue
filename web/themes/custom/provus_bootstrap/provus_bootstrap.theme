@@ -8,6 +8,7 @@
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\Entity\Entity\EntityViewDisplay;
+use Drupal\file\Entity\File;
 
 /**
  * Implements hook_form_system_theme_settings_alter() for settings form.
@@ -106,5 +107,18 @@ function provus_preprocess_node(&$vars) {
     ];
 
     $vars['content']['image'] = $image;
+  }
+
+  $vars['content']['image_uri'] = '';
+  if (in_array($node_type, ['provus_news', 'provus_blog', 'provus_person'])) {
+    if ($vars['node']->field_provus_media_image) {
+      $fid = $vars['node']->field_provus_media_image->target_id;
+      $file = \Drupal\file\Entity\File::load($fid);
+      $vars['content']['image_uri'] = $file->getFileUri();
+    }
+  }
+
+  if (!isset($vars['content']['date']) || !$vars['content']['date']) {
+    $vars['content']['date'] = $vars['node']->getCreatedTime();
   }
 }

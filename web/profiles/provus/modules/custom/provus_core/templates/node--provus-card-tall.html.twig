@@ -80,18 +80,20 @@
 %}
 <div{{ attributes.addClass(classes) }}>
   {% block content %}
+    <a href="{{ url }}" rel="bookmark">
     <div{{ content_attributes.addClass('card') }}>
-      {% if content.image|render %}
+      {% if content.image_uri is not empty %}
         <div class="card-img-top">
-          {{ content.image }}
+          <img src="{{ content.image_uri | image_style('provus_card_tall') }}" alt="card-image" />
         </div>
       {% endif %}
       <div class="card-body">
         {% if content.date|render %}
-          <div class="card-date">{{ content.date }}</div>
+          <div class="card-date">{{ content.date|format_date('provus_event_date') }}</div>
         {% endif %}
-        <h3 class="card-title"><a href="{{ url }}" rel="bookmark">{{ label }}</a></h3>
+        <h3 class="card-title">{{ label }}</h3>
       </div>
     </div>
+    </a>
   {% endblock %}
 </div>
