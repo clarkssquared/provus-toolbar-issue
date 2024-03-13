@@ -109,16 +109,16 @@ function provus_preprocess_node(&$vars) {
     $vars['content']['image'] = $image;
   }
 
-  $vars['content']['image_uri'] = '';
+  $vars['content_image_uri'] = '';
   if (in_array($node_type, ['provus_news', 'provus_blog', 'provus_person'])) {
     if ($vars['node']->field_provus_media_image) {
       $fid = $vars['node']->field_provus_media_image->target_id;
       $file = \Drupal\file\Entity\File::load($fid);
-      $vars['content']['image_uri'] = $file->getFileUri();
+      $vars['content_image_uri'] = $file->getFileUri();
     }
   }
 
   if (!isset($vars['content']['date']) || !$vars['content']['date']) {
-    $vars['content']['date'] = $vars['node']->getCreatedTime();
+    $vars['content_date'] = date('F d, Y', $vars['node']->getCreatedTime());
   }
 }
