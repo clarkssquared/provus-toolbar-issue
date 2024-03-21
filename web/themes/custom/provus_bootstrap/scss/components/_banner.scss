@@ -1,32 +1,6 @@
 /* Banner */
 .short-banner {
   @include breakout;
-  &#short-banner-style-light {
-    background: $gray-lightest;
-    color: $body-color;
-    padding: 0;
-  }
-  &#short-banner-style-primary {
-    background: $primary-shade;
-    color: $white;
-    padding: 0;
-    h1, h2 {
-      color: $white;
-    }
-  }
-  &#short-banner-style-secondary {
-    background: $secondary-shade;
-    color: $white;
-    padding: 0;
-    h1, h2 {
-      color: $white;
-    }
-  }
-  &#short-banner-style-white {
-    background: $white;
-    color: $body-color;
-    padding: 0;
-  }
   &-inner {
     .short-banner-content {
       padding-top: rem-calc(50);
@@ -80,25 +54,63 @@
 
 
 /* Banner */
-.large-banner-background {
+.banner-background {
   @include breakout;
 
   padding: rem-calc(102 0);
   background-size: cover !important;
   height: rem-calc(584);
-  .large-banner-inner {
-    .large-banner-content {
-      .large-banner-title {
+
+  &.banner-color {
+    &-light {
+      background-color: $gray-lightest !important;
+      color: $body-color;
+      padding: 0;
+    }
+    &-primary {
+      background-color: $primary-shade !important;
+      color: $white;
+      padding: 0;
+      h1, h2 {
+        color: $white;
+      }
+    }
+    &-secondary {
+      background-color: $secondary-shade !important;
+      color: $white;
+      padding: 0;
+      h1, h2 {
+        color: $white;
+      }
+    }
+    &-white {
+      background-color: $white !important;
+      color: $body-color;
+      padding: 0;
+    }
+  }
+  &.image-left {
+    background-size: 45% 100% !important;
+    background-position: left !important;
+  }
+  &.image-right {
+    background-size: 45% 100% !important;
+    background-position: right !important;
+  }
+  .banner-inner {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    .banner-content {
+      .banner-title {
         @include text-style-display-headline-display;
-        width: rem-calc(820);
         height: max-content;
       }
-      .large-banner-body {
+      .banner-body {
         @include text-style-subheadline-sub-1;
-        width: rem-calc(926);
         height: max-content;
       }
-      h1, p {
+      h1, p, .subheading {
         color: $white;
         text-shadow: 0 0 rem-calc(8) $black, 0 0 rem-calc(20) $black;
       }
@@ -112,7 +124,8 @@
       }
     }
   }
-  .smaller-large-banner & {
+
+  .smaller-banner & {
     padding: rem-calc(75 0);
     height: auto;
   }
@@ -120,23 +133,23 @@
 
 // For mobile devices.
 @media (min-width: 300px) and (max-width: 900px) {
-  .large-banner-background {
+  .banner-background {
     h1 {
       font-size: rem-calc(28);
       line-height: rem-calc(30);
     }
-    .large-banner-title {
-      width: rem-calc(329) !important;
+    .banner-title {
+      width: 100% !important;
       font-size: rem-calc(28) !important;
       line-height: rem-calc(30) !important;
     }
-    .large-banner-body {
-      width: rem-calc(334) !important;
+    .banner-body {
+      width: 100% !important;
       font-size: rem-calc(16) !important;
       line-height: rem-calc(32) !important;
     }
   }
-  .large-banner-inner .large-banner-content p{
+  .banner-inner .banner-content p{
       font-size: rem-calc(16);
       line-height: rem-calc(32);
   }
@@ -144,14 +157,10 @@
 
 // For iPad devices.
 @media (min-width: 910px) and (max-width: 1400px) {
-  .large-banner-background {
-    .large-banner-title {
-      width: rem-calc(750) !important;
+  .banner-background {
+    .banner-title {
       font-size: rem-calc(28) !important;
       line-height: rem-calc(30) !important;
-    }
-    .large-banner-body {
-      width: rem-calc(730) !important;
     }
   }
 }
