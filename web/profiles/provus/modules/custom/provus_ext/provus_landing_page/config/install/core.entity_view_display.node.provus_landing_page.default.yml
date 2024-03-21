@@ -118,6 +118,7 @@ third_party_settings:
       allowlisted_blocks:
         'Custom block types':
           - provus_accordion
+          - provus_banner
           - provus_basic_text
           - provus_button
           - provus_card
@@ -128,12 +129,10 @@ third_party_settings:
           - provus_group
           - provus_group_automatic
           - provus_heading
-          - provus_large_banner
           - provus_list
           - provus_media
           - provus_person_list
           - provus_photo_gallery
-          - provus_short_banner
           - provus_slideshow
           - provus_stat_group
           - provus_tabs
@@ -141,6 +140,7 @@ third_party_settings:
           - webform
         'Inline blocks':
           - 'inline_block:provus_accordion'
+          - 'inline_block:provus_banner'
           - 'inline_block:provus_basic_text'
           - 'inline_block:provus_button'
           - 'inline_block:provus_card'
@@ -151,12 +151,10 @@ third_party_settings:
           - 'inline_block:provus_group'
           - 'inline_block:provus_group_automatic'
           - 'inline_block:provus_heading'
-          - 'inline_block:provus_large_banner'
           - 'inline_block:provus_list'
           - 'inline_block:provus_media'
           - 'inline_block:provus_person_list'
           - 'inline_block:provus_photo_gallery'
-          - 'inline_block:provus_short_banner'
           - 'inline_block:provus_slideshow'
           - 'inline_block:provus_stat_group'
           - 'inline_block:provus_tabs'
