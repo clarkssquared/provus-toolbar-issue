@@ -1,10 +1,11 @@
+uuid: 53361e7d-11b2-4099-a8d7-342eb8bc32ba
 langcode: en
 status: true
 dependencies:
   module:
     - block_content
-id: block_content.field_provus_large_banner_small
-field_name: field_provus_large_banner_small
+id: block_content.field_provus_short_banner
+field_name: field_provus_short_banner
 entity_type: block_content
 type: boolean
 settings: {  }
