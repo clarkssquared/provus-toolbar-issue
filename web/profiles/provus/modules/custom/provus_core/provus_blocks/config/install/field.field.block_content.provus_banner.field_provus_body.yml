@@ -4,7 +4,7 @@ dependencies:
   config:
     - block_content.type.provus_banner
     - field.storage.block_content.field_provus_body
-    - filter.format.full_html
+    - filter.format.basic_html
   module:
     - text
 id: block_content.provus_banner.field_provus_body
@@ -21,5 +21,5 @@ settings:
   display_summary: false
   required_summary: false
   allowed_formats:
-    - full_html
+    - basic_html
 field_type: text_with_summary
