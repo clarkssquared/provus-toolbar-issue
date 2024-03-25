@@ -1,38 +1,33 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/provus-local.docksal.site\/media\/3\/edit?_format=hal_json"
+            "href": "http:\/\/provus-3432651.docksal.site\/media\/2\/edit?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/provus-local.docksal.site\/rest\/type\/media\/image"
+            "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/media\/image"
         },
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/media\/image\/revision_user": [
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "http:\/\/provus-local.docksal.site\/user\/1?_format=hal_json"
-            }
-        ],
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/media\/image\/uid": [
-            {
-                "href": "http:\/\/provus-local.docksal.site\/user\/0?_format=hal_json",
+                "href": "http:\/\/provus-3432651.docksal.site\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ],
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/provus-local.docksal.site\/sites\/default\/files\/2023-09\/Image-1-Alternatives-to-stock-photography-Thinkstock.jpeg",
+                "href": "",
                 "lang": "en"
             }
         ],
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
             {
-                "href": "http:\/\/provus-local.docksal.site\/sites\/default\/files\/2023-09\/Image-1-Alternatives-to-stock-photography-Thinkstock.jpeg",
+                "href": "",
                 "lang": "en"
             }
         ]
     },
     "mid": [
         {
-            "value": 3
+            "value": 2
         }
     ],
     "uuid": [
@@ -53,89 +48,80 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-11T16:12:22+00:00",
+            "value": "2024-03-25T12:37:13+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "_embedded": {
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/media\/image\/revision_user": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/provus-local.docksal.site\/user\/1?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/provus-local.docksal.site\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "2bc02951-e1d9-4c98-a883-d6ebda691417"
-                    }
-                ]
-            }
-        ],
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/media\/image\/uid": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/provus-local.docksal.site\/user\/0?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/provus-local.docksal.site\/rest\/type\/user\/user"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "7e04876c-289b-4fac-b0aa-3be88896b0dc"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/provus-local.docksal.site\/sites\/default\/files\/2023-09\/Image-1-Alternatives-to-stock-photography-Thinkstock.jpeg"
-                    },
-                    "type": {
-                        "href": "http:\/\/provus-local.docksal.site\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "5b02ed87-7df6-47f0-bb49-b057d6938797"
-                    }
-                ],
-                "lang": "en"
-            }
-        ],
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/provus-local.docksal.site\/sites\/default\/files\/2023-09\/Image-1-Alternatives-to-stock-photography-Thinkstock.jpeg"
-                    },
-                    "type": {
-                        "href": "http:\/\/provus-local.docksal.site\/rest\/type\/file\/file"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "5b02ed87-7df6-47f0-bb49-b057d6938797"
-                    }
-                ],
-                "lang": "en"
-            }
-        ]
-    },
     "status": [
         {
             "value": true,
             "lang": "en"
         }
     ],
+    "_embedded": {
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/provus-3432651.docksal.site\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "065a6045-6d5f-4a4c-80e0-734fc9c4a851"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5b02ed87-7df6-47f0-bb49-b057d6938797"
+                    }
+                ],
+                "lang": "en",
+                "alt": null,
+                "title": null,
+                "width": "495",
+                "height": "350"
+            }
+        ],
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5b02ed87-7df6-47f0-bb49-b057d6938797"
+                    }
+                ],
+                "lang": "en",
+                "alt": null,
+                "title": null,
+                "width": "495",
+                "height": "350"
+            }
+        ]
+    },
     "name": [
         {
             "value": "Image-1-Alternatives-to-stock-photography-Thinkstock.jpeg",
@@ -151,7 +137,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-11T16:12:22+00:00",
+            "value": "2024-03-25T12:37:13+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -165,6 +151,24 @@
     "revision_translation_affected": [
         {
             "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "| Provus"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/provus-3432651.docksal.site\/homepage"
+            },
             "lang": "en"
         }
     ],
