@@ -240,24 +240,6 @@
                         },
                         "weight": 0,
                         "additional": []
-                    },
-                    {
-                        "uuid": "ff14eedd-7017-4e29-9080-ff9251866c6b",
-                        "region": "blb_region_col_1",
-                        "configuration": {
-                            "id": "inline_block:provus_large_banner",
-                            "label": "%AutoEntityLabel%",
-                            "label_display": false,
-                            "provider": "layout_builder",
-                            "view_mode": "full",
-                            "block_serialized": null,
-                            "context_mapping": [],
-                            "type": "provus_large_banner",
-                            "uuid": "17466acb-70a2-4937-adc0-fc56ba2e9280",
-                            "block_uuid": "17466acb-70a2-4937-adc0-fc56ba2e9280"
-                        },
-                        "weight": 3,
-                        "additional": []
                     }
                 ],
                 "third_party_settings": []
