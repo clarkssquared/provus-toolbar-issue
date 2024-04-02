@@ -12,7 +12,6 @@ services:
       update:
         - composer self-update
         - composer install --optimize-autoloader
-        - COMPOSER_ROOT_VERSION="${TUGBOAT_GITLAB_TARGET:-$TUGBOAT_PREVIEW}-dev" composer require drush/drush
         - mkdir -p "${DOCROOT}/sites/default/files"
         - chgrp -R www-data "${DOCROOT}/sites/default/files"
         - find "${DOCROOT}/sites/default/files" -type d -exec chmod 2775 {} \;
