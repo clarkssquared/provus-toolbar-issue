@@ -172,6 +172,9 @@
             },
             "drupal/inline_entity_form": {
                 "3033241: Cannot update the order weight using complex form widget": "https://www.drupal.org/files/issues/2021-02-15/cannot-update-weight-order-complex-widget-3033241-4.patch"
+            },
+            "drupal/smart_date": {
+                "3381131: Deprecated $dateFormatter property": "https://git.drupalcode.org/project/smart_date/-/merge_requests/63.patch"
             }
         }
     },
