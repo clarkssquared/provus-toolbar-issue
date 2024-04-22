@@ -167,15 +167,14 @@
             "drupal/bootstrap_site_alert": {
                 "3281928: HTML markup shown as encoded characters": "https://git.drupalcode.org/project/bootstrap_site_alert/-/merge_requests/5.diff"
             },
-            "drupal/bootstrap_styles": {
-                "3282082: Support Bootstrap 5 on bootstrap_styles module.": "https://www.drupal.org/files/issues/2022-06-14/Fix-support-bootstrap-5-on-bootstrap-styles-3282082-%233.patch",
-                "3361091: Clean up UI for 1x branch.": "https://git.drupalcode.org/project/bootstrap_styles/-/merge_requests/57.diff"
-            },
             "drupal/default_content_deploy": {
                 "3376835: Fix layout builder references to inline blocks": "https://www.drupal.org/files/issues/2023-07-25/default_content_deploy-layout-builder-inline-blocks-reference-3376835-2.patch"
             },
             "drupal/inline_entity_form": {
                 "3033241: Cannot update the order weight using complex form widget": "https://www.drupal.org/files/issues/2021-02-15/cannot-update-weight-order-complex-widget-3033241-4.patch"
+            },
+            "drupal/smart_date": {
+                "3381131: Deprecated $dateFormatter property": "https://git.drupalcode.org/project/smart_date/-/merge_requests/63.patch"
             }
         }
     },
