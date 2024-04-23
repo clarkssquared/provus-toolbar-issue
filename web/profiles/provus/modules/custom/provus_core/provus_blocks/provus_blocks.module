@@ -105,12 +105,8 @@ function provus_blocks_theme() {
       'template' => 'block--provus-list',
       'base hook' => 'block'
     ],
-    'block__provus_short_banner' => [
-      'template' => 'block--provus-short-banner',
-      'base hook' => 'block'
-    ],
-    'block__provus_large_banner' => [
-      'template' => 'block--provus-large-banner',
+    'block__provus_banner' => [
+      'template' => 'block--provus-banner',
       'base hook' => 'block'
     ],
     'block__provus_list_item' => [

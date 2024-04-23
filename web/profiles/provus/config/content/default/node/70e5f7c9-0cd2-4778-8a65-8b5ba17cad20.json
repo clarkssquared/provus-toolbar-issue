@@ -1,26 +1,26 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/provus-local.docksal.site\/homepage?_format=hal_json"
+            "href": "http:\/\/provus-3432651.docksal.site\/homepage?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/provus-local.docksal.site\/rest\/type\/node\/provus_landing_page"
+            "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/node\/provus_landing_page"
         },
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
             {
-                "href": "http:\/\/provus-local.docksal.site\/user\/0?_format=hal_json"
+                "href": "http:\/\/provus-3432651.docksal.site\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
             {
-                "href": "http:\/\/provus-local.docksal.site\/user\/0?_format=hal_json",
+                "href": "http:\/\/provus-3432651.docksal.site\/user\/0?_format=hal_json",
                 "lang": "en"
             }
         ]
     },
     "nid": [
         {
-            "value": 1
+            "value": 4
         }
     ],
     "uuid": [
@@ -41,41 +41,41 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-08-11T21:10:13+00:00",
+            "value": "2024-03-25T12:41:14+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/provus-local.docksal.site\/user\/0?_format=hal_json"
+                        "href": "http:\/\/provus-3432651.docksal.site\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/provus-local.docksal.site\/rest\/type\/user\/user"
+                        "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "7e04876c-289b-4fac-b0aa-3be88896b0dc"
+                        "value": "236ab5c1-e3cc-48a7-8ba0-71f15e2fdd80"
                     }
                 ]
             }
         ],
-        "http:\/\/provus-local.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
+        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/provus-local.docksal.site\/user\/0?_format=hal_json"
+                        "href": "http:\/\/provus-3432651.docksal.site\/user\/0?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/provus-local.docksal.site\/rest\/type\/user\/user"
+                        "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "7e04876c-289b-4fac-b0aa-3be88896b0dc"
+                        "value": "065a6045-6d5f-4a4c-80e0-734fc9c4a851"
                     }
                 ],
                 "lang": "en"
@@ -103,7 +103,7 @@
     ],
     "changed": [
         {
-            "value": "2023-08-11T21:10:13+00:00",
+            "value": "2024-03-25T12:41:14+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -132,10 +132,34 @@
             "lang": "en"
         }
     ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "tag": "meta",
+            "attributes": {
+                "name": "title",
+                "content": "Homepage | Provus"
+            },
+            "lang": "en"
+        },
+        {
+            "tag": "link",
+            "attributes": {
+                "rel": "canonical",
+                "href": "http:\/\/provus-3432651.docksal.site\/homepage"
+            },
+            "lang": "en"
+        }
+    ],
     "path": [
         {
             "alias": "\/homepage",
-            "pid": 1,
+            "pid": 20,
             "langcode": "en",
             "lang": "en"
         }
@@ -242,21 +266,21 @@
                         "additional": []
                     },
                     {
-                        "uuid": "ff14eedd-7017-4e29-9080-ff9251866c6b",
+                        "uuid": "0b1627ca-422d-4cb7-8abd-afbab3a69cbf",
                         "region": "blb_region_col_1",
                         "configuration": {
-                            "id": "inline_block:provus_large_banner",
+                            "id": "inline_block:provus_banner",
                             "label": "%AutoEntityLabel%",
                             "label_display": false,
                             "provider": "layout_builder",
                             "view_mode": "full",
                             "block_serialized": null,
                             "context_mapping": [],
-                            "type": "provus_large_banner",
-                            "uuid": "17466acb-70a2-4937-adc0-fc56ba2e9280",
-                            "block_uuid": "17466acb-70a2-4937-adc0-fc56ba2e9280"
+                            "type": "provus_banner",
+                            "uuid": "dab08c43-0c7a-4c53-b1ed-f44c1d0e81fb",
+                            "block_uuid": "dab08c43-0c7a-4c53-b1ed-f44c1d0e81fb"
                         },
-                        "weight": 3,
+                        "weight": 1,
                         "additional": []
                     }
                 ],

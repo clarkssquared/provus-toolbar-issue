@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.provus_large_banner
+    - block_content.type.provus_banner
     - field.storage.block_content.field_provus_body
   module:
     - text
-id: block_content.provus_large_banner.field_provus_body
+id: block_content.provus_banner.field_provus_body
 field_name: field_provus_body
 entity_type: block_content
-bundle: provus_large_banner
+bundle: provus_banner
 label: Body
 description: ''
-required: false
-translatable: true
+required: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
