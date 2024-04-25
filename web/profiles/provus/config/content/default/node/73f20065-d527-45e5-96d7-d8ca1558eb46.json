@@ -134,7 +134,7 @@
     ],
     "moderation_state": [
         {
-            "value": "draft",
+            "value": "published",
             "lang": "en"
         }
     ],
@@ -181,11 +181,15 @@
             "lang": "en"
         }
     ],
-    "value": "2023-09-29T13:00:00+00:00",
-    "end_value": "2023-09-29T15:00:00+00:00",
-    "duration": 120,
-    "rrule": null,
-    "rrule_index": null,
-    "timezone": "",
-    "format": "Y-m-d\\TH:i:sP"
+    "field_provus_smartdate": [
+        {
+            "value": "2024-05-29T13:00:00+00:00",
+            "end_value": "2024-05-29T15:00:00+00:00",
+            "duration": 120,
+            "rrule": null,
+            "rrule_index": null,
+            "timezone": "",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
 }
