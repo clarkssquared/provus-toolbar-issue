@@ -1,10 +1,10 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/provus-3432651.docksal.site\/admin\/content\/block\/8?_format=hal_json"
+            "href": "http:\/\/provus-local.docksal.site\/admin\/content\/block\/8?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/block_content\/provus_heading"
+            "href": "http:\/\/provus-local.docksal.site\/rest\/type\/block_content\/provus_heading"
         }
     },
     "id": [
@@ -42,7 +42,7 @@
     ],
     "info": [
         {
-            "value": "Some heading (Heading) - 798392219",
+            "value": "Some heading (Heading) - 1756672488",
             "lang": "en"
         }
     ],
@@ -67,24 +67,6 @@
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
-        }
-    ],
-    "metatag": [
-        {
-            "tag": "meta",
-            "attributes": {
-                "name": "title",
-                "content": "| Provus"
-            },
-            "lang": "en"
-        },
-        {
-            "tag": "link",
-            "attributes": {
-                "rel": "canonical",
-                "href": "http:\/\/provus-3432651.docksal.site\/homepage"
-            },
             "lang": "en"
         }
     ],

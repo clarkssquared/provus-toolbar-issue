@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.provus_banner
+    - block_content.type.provus_short_banner
     - field.storage.block_content.field_provus_links
   module:
     - link
-id: block_content.provus_banner.field_provus_links
+id: block_content.provus_short_banner.field_provus_links
 field_name: field_provus_links
 entity_type: block_content
-bundle: provus_banner
+bundle: provus_short_banner
 label: Links
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

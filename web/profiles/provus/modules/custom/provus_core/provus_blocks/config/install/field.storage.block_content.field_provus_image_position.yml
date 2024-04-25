@@ -11,14 +11,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: full
-      label: full
+      value: right
+      label: Right
     -
       value: left
-      label: left
-    -
-      value: right
-      label: right
+      label: Left
   allowed_values_function: ''
 module: options
 locked: false

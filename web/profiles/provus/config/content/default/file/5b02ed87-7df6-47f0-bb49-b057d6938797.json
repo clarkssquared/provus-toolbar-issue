@@ -4,7 +4,7 @@
             "href": ""
         },
         "type": {
-            "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/file\/file"
+            "href": "http:\/\/provus-local.docksal.site\/rest\/type\/file\/file"
         }
     },
     "fid": [
@@ -29,8 +29,8 @@
     ],
     "uri": [
         {
-            "value": "public:\/\/2023-09\/Image-1-Alternatives-to-stock-photography-Thinkstock_1.jpeg",
-            "url": "\/sites\/default\/files\/2023-09\/Image-1-Alternatives-to-stock-photography-Thinkstock_1.jpeg"
+            "value": "public:\/\/2023-09\/Image-1-Alternatives-to-stock-photography-Thinkstock.jpeg",
+            "url": "\/sites\/default\/files\/2023-09\/Image-1-Alternatives-to-stock-photography-Thinkstock.jpeg"
         }
     ],
     "filemime": [

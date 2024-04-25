@@ -1,19 +1,19 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/provus-3432651.docksal.site\/events?_format=hal_json"
+            "href": "http:\/\/provus-local.docksal.site\/events?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/node\/provus_landing_page"
+            "href": "http:\/\/provus-local.docksal.site\/rest\/type\/node\/provus_landing_page"
         },
-        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
+        "http:\/\/provus-local.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
             {
-                "href": "http:\/\/provus-3432651.docksal.site\/user\/0?_format=hal_json"
+                "href": "http:\/\/provus-local.docksal.site\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
+        "http:\/\/provus-local.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
             {
-                "href": "http:\/\/provus-3432651.docksal.site\/user\/0?_format=hal_json",
+                "href": "http:\/\/provus-local.docksal.site\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ]
@@ -46,36 +46,36 @@
         }
     ],
     "_embedded": {
-        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
+        "http:\/\/provus-local.docksal.site\/rest\/relation\/node\/provus_landing_page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/provus-3432651.docksal.site\/user\/0?_format=hal_json"
+                        "href": "http:\/\/provus-local.docksal.site\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/user\/user"
+                        "href": "http:\/\/provus-local.docksal.site\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "065a6045-6d5f-4a4c-80e0-734fc9c4a851"
+                        "value": "2bc02951-e1d9-4c98-a883-d6ebda691417"
                     }
                 ]
             }
         ],
-        "http:\/\/provus-3432651.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
+        "http:\/\/provus-local.docksal.site\/rest\/relation\/node\/provus_landing_page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/provus-3432651.docksal.site\/user\/0?_format=hal_json"
+                        "href": "http:\/\/provus-local.docksal.site\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/provus-3432651.docksal.site\/rest\/type\/user\/user"
+                        "href": "http:\/\/provus-local.docksal.site\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "065a6045-6d5f-4a4c-80e0-734fc9c4a851"
+                        "value": "2bc02951-e1d9-4c98-a883-d6ebda691417"
                     }
                 ],
                 "lang": "en"
@@ -84,7 +84,7 @@
     },
     "status": [
         {
-            "value": false,
+            "value": true,
             "lang": "en"
         }
     ],
@@ -132,34 +132,10 @@
             "lang": "en"
         }
     ],
-    "moderation_state": [
-        {
-            "value": "draft",
-            "lang": "en"
-        }
-    ],
-    "metatag": [
-        {
-            "tag": "meta",
-            "attributes": {
-                "name": "title",
-                "content": "Events | Provus"
-            },
-            "lang": "en"
-        },
-        {
-            "tag": "link",
-            "attributes": {
-                "rel": "canonical",
-                "href": "http:\/\/provus-3432651.docksal.site\/events"
-            },
-            "lang": "en"
-        }
-    ],
     "path": [
         {
             "alias": "\/events",
-            "pid": 19,
+            "pid": 3,
             "langcode": "en",
             "lang": "en"
         }
