@@ -11,7 +11,6 @@ dependencies:
     - field.field.block_content.provus_card.field_provus_title
   module:
     - ala
-    - media
     - text
 id: block_content.provus_card.default
 targetEntityType: block_content
@@ -45,15 +44,16 @@ content:
       url_plain: false
       rel: 0
       target: 0
+      ala_link_view_icon_position: left
     third_party_settings: {  }
     weight: 3
     region: content
   field_provus_media_image:
-    type: media_thumbnail
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: ''
+      view_mode: provus_card_default
+      link: false
     third_party_settings: {  }
     weight: 2
     region: content
@@ -68,3 +68,4 @@ content:
 hidden:
   field_item_display: true
   field_provus_item_display: true
+  search_api_excerpt: true

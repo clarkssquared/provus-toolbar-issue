@@ -78,6 +78,7 @@ install:
   - twig_tweak
   - views
   - views_ui
+  - webp
   - workflows
 
 # Required modules

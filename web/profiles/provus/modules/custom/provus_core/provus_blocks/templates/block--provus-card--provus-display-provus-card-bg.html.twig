@@ -49,9 +49,11 @@
   {% endif %}
       {% block content %}
         <div{{ content_attributes.addClass('card') }}>
-          <div class="card-img-wrapper">
-            <div class="card-img" style="background-image:url('{{ file_url(content.field_provus_media_image.0['#item'].entity.uri.value | image_style('provus_card_background')) }}')"></div>
-          </div>
+          {% if content.field_provus_media_image|render %}
+            <div class="card-img-wrapper">
+              {{ content.field_provus_media_image }}
+            </div>
+          {% endif %}
           <div class="card-img-overlay">
             <div class="card-body">
               {% if content.field_provus_title|render %}

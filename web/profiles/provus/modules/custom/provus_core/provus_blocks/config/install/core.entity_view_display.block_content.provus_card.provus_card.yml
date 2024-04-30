@@ -10,11 +10,9 @@ dependencies:
     - field.field.block_content.provus_card.field_provus_links
     - field.field.block_content.provus_card.field_provus_media_image
     - field.field.block_content.provus_card.field_provus_title
-    - image.style.provus_landscape_medium
   module:
     - ala
     - layout_builder
-    - media
     - text
 third_party_settings:
   layout_builder:
@@ -57,13 +55,11 @@ content:
     weight: 3
     region: content
   field_provus_media_image:
-    type: media_thumbnail
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      image_link: ''
-      image_style: provus_landscape_medium
-      image_loading:
-        attribute: lazy
+      view_mode: provus_card_default
+      link: false
     third_party_settings: {  }
     weight: 2
     region: content
@@ -78,3 +74,4 @@ content:
 hidden:
   field_item_display: true
   field_provus_item_display: true
+  search_api_excerpt: true

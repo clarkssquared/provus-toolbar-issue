@@ -92,25 +92,18 @@
 // Card bg.
 .card-wrapper.provus-card-bg {
   .card {
-    min-height: rem-calc(240);
+    height: auto;
     border-radius: $card-border-radius;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
   .card-img-wrapper {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
     overflow: hidden;
-    .card-img {
-      position: absolute;
-      top: 0;
-      left: 0;
+    img {
+      margin: 0;
       width: 100%;
-      height: 100%;
+      height: auto;
       transition: all 0.3s ease-in-out;
     }
   }
@@ -157,7 +150,7 @@
       .card-img-overlay {
         background: rgba(28,43,84, 0.85);
       }
-      .card-img {
+      img {
         transform: scale(1.05);
       }
       .card-body .arrow-right {
