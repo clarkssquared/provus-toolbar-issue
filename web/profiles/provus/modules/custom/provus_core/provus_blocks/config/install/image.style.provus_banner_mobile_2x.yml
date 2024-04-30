@@ -7,6 +7,7 @@ name: provus_banner_mobile_2x
 label: 'Banner | Mobile | 2x'
 effects:
   660f2033-0acc-4db6-9fe1-6cb3980bca4d:
+    uuid: 660f2033-0acc-4db6-9fe1-6cb3980bca4d
     id: focal_point_scale_and_crop
     weight: 1
     data:

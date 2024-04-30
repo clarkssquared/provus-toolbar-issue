@@ -7,6 +7,7 @@ name: provus_card_background_tablet_1x
 label: 'Card Background | Tablet | 1x'
 effects:
   ccb05d55-22f3-4265-8ad7-9558b556cde2:
+    uuid: ccb05d55-22f3-4265-8ad7-9558b556cde2
     id: focal_point_scale_and_crop
     weight: 1
     data:
