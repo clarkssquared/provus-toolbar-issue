@@ -44,14 +44,22 @@ tips:
     position: top-start
     selector: '#edit-status-value'
     body: "The publish status determines if the public can see this page or not.  Publish means it can be seen, unpublished means it can't be seen."
+  moderation-status:
+    id: moderation-status
+    plugin: text
+    label: 'Moderation status'
+    weight: -97
+    position: top-start
+    selector: '#edit-moderation-state-0'
+    body: "The moderation status determines if the public can see this page or not.  Publish means it can be seen, unpublished means it can't be seen. Other states like Draft and Needs Review are also available."
   save-button:
     id: save-button
     plugin: text
     label: 'Save button'
     weight: -95
     position: top-start
-    selector: '#edit-actions'
-    body: 'By clicking the Save button, the changes you have made will be saved as a new revision of the page and will be delivered to the public immediately.'
+    selector: '#edit-submit--2--gin-edit-form'
+    body: 'By clicking the Save button, the changes you have made will be saved as a revision of the page.'
   revision-log:
     id: revision-log
     plugin: text
