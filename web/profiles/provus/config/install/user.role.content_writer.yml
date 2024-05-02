@@ -24,6 +24,7 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access media overview'
+  - 'access toolbar'
   - 'access tour'
   - 'create document media'
   - 'create image media'

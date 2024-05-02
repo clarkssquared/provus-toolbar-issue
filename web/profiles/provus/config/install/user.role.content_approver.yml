@@ -16,6 +16,7 @@ weight: 4
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'access toolbar'
   - 'access tour'
   - 'administer media'
   - 'administer nodes'
